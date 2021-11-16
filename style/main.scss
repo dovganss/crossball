@@ -1,0 +1,28 @@
+//normalize
+@import "./normalize.css";
+
+//media
+
+@import "./media.scss";
+
+$baseFontSize: 18px;
+
+$tablets: 768px;
+$phones: 480px;
+
+//font
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./components/fonts/proximanova_regular.ttf") format("truetype");
+}
+
+//layout
+@import "./layout.scss";
+
+//components
+@import "./components/header";
+@import "./components/content.scss";
+@import "./components/leftpanel";
+@import "./components/mainpanel";
+@import "./components/table";
+@import "./components/footer.scss";

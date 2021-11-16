@@ -1,0 +1,7 @@
+.content {
+  display: flex;
+
+  @include phones {
+    flex-direction: column;
+  }
+}

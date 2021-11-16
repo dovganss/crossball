@@ -1,0 +1,78 @@
+.tabl-select {
+  width: 170px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #909090;
+}
+
+.table {
+  width: 1015px;
+  margin-top: 20px;
+  -webkit-filter: drop-shadow(0px 2px 8px #E9E9E9);
+          filter: drop-shadow(0px 2px 8px #E9E9E9);
+  border-radius: 0px 0px 10px 10px;
+  border: 2px #E9E9E9;
+}
+
+.table-up {
+  width: 1015px;
+  height: 40px;
+  background: #FFFFFF;
+  text-align: left;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+.table-up-name {
+  color: #909090;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+.table-up-name::before {
+  content: url(./../../img/sort.png);
+  position: absolute;
+  left: 7px;
+  top: 19px;
+}
+.table-up-name:first-child::before {
+  content: "";
+}
+
+.table-main {
+  width: 1015px;
+  height: 60px;
+}
+
+.table-main-name {
+  color: #222222;
+  padding-left: 20px;
+}
+
+.table-main--white {
+  background: #FFFFFF;
+}
+
+.table-main-name--blue {
+  font-size: 16px;
+  color: #5A60E7;
+}
+
+.table-up-name--1 {
+  width: 441px;
+}
+
+.table-up-name--2 {
+  width: 159px;
+}
+
+.table-up-name--3 {
+  width: 93px;
+}
+
+.table-up-name--4 {
+  width: 93px;
+}

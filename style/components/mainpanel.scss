@@ -1,0 +1,240 @@
+.mainpanel__upblock {
+  width: 1015px;
+  height: 184px;
+  background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+  border-radius: 10px;
+  padding: 20px 20px 0 20px;
+  display: flex;
+
+  @include phones {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.mainpanel {
+  margin-left: 50px;
+
+  @include phones {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.achie-block-text {
+  display: none;
+
+  @include phones {
+    display: block;
+    color: #909090;
+    font-size: 14px;
+    margin-bottom: 11px;
+  }
+}
+
+.achie-block-up {
+  display: flex;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 275px;
+    height: 1px;
+    background: #D6D7F9;
+    position: absolute;
+    bottom: -3px;
+  }
+}
+
+.achie-block-up-left {
+  display: flex;
+  position: relative;
+
+  & .achie {
+    margin-right: 15px;
+    position: relative;
+  }
+}
+
+.achie-number {
+  width: 15px;
+  height: 15px;
+  font-size: 12px; 
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  left: 26px;
+  top: -5px;
+  color: #5A60E7;
+
+  &--2 {
+    left: 74px;
+  }
+
+  &--3 {
+    width: 25px;
+    left: 119px;
+  }
+
+}
+
+.achie-block-up-right {
+  display: flex;
+  margin-left: 45px;
+
+  & .achie {
+    margin-right: 10px;
+  }
+}
+
+.achie-block-down {
+  display: flex;
+  margin-top: 19px;
+
+  & .achie {
+    margin-right: 5px;
+  }
+}
+
+
+
+.games--buttons {
+  display: flex;
+  width: 442px;
+  height: 40px;
+  border: 0.5px solid #5A60E7;
+box-sizing: border-box;
+border-radius: 5px;
+align-items: center;
+justify-content: center;
+margin-left: 38px;
+}
+
+.button__all {
+  width: 210px;
+height: 30px;
+background: #5A60E7;
+border-radius: 3px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+.button__now {
+  margin-left: 60px;
+  color: #ACAFF3;
+  padding-right: 48px;
+  cursor: pointer;
+}
+
+.games {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 17px;
+
+  @include phones {
+    margin-bottom: 20px;
+  }
+}
+
+.mainpanel__upblock .social {
+  @include phones {
+    display: none;
+  }
+}
+
+.social {
+  margin-top: -20px;
+    margin-left: 18px;
+
+    &--mobile {
+      display: none; 
+   
+      @include phones {
+        display: block;
+        position: absolute;
+        margin-top: -62px;
+       margin-left: 310px;
+      }
+    }
+}
+
+
+.social__link {
+  font-size: 12px;
+  color: #ACAFF3;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.social__item .close-img {
+  margin-left: 21px;
+}
+
+
+.social__list {
+  display: flex;
+}
+
+
+
+.games__block {
+  width: 95px;
+  height: 75px;
+  background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  @include phones {
+    width: 67px;
+    height: 60px;
+  }
+
+}
+
+.games__block-name {
+  color: #FAF9F9;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  @include phones {
+    font-size: 12px;
+  }
+}
+
+.games__block-number {
+  font-size: 30px;
+  color: #FF795B;
+  text-align: right;
+  margin-right: 10px;
+
+  @include phones {
+    font-size: 20px;
+  }
+}
+
+.close {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.close__up {
+  display: flex;
+  margin-top: 15px;
+}
+
+.close__down {
+  display: flex;
+  margin-top: 30px;
+}
+
+.close-img {
+  margin-right: 30px;
+}
+
+
